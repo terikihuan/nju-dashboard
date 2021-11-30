@@ -1,0 +1,84 @@
+.topbar {
+  display: flex;
+  background-color: white;
+  padding: 0 10px;
+  /* border-bottom: 1px solid var(--neutral-grey); */
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: var(--bottom-shadow);
+}
+.topbarLeft,
+.topbarRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.topbarRight {
+  justify-content: flex-end;
+}
+
+/* CONTENTS */
+.topbarLogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbarLogo {
+  height: 40px;
+}
+
+/* BUTTONS */
+.topbarButtons {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.topbarSingleButton {
+  height: 35px;
+  width: 35px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-main);
+  color: var(--primary-main);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.userButton {
+  width: auto;
+  padding: 0 10px;
+}
+
+/* LANGUAGE MENU */
+.languageMenu {
+  margin-top: -10px;
+  /* padding-top: 10px; */
+}
+.languageList {
+  background-color: white;
+  list-style-type: none;
+  border-radius: 5px;
+  box-shadow: var(--border-shadow);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.languageList li {
+  padding: 5px 10px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.languageList li:hover {
+  background-color: var(--hover-grey);
+}
+.activeLanguageItem {
+  background-color: var(--light-purple-1);
+  color: var(--primary-main);
+}
+.activeLanguageItem:hover {
+  background-color: var(--light-purple-2) !important;
+}

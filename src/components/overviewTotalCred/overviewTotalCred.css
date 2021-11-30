@@ -1,0 +1,14 @@
+.overviewTotalCredits {
+  margin-left: auto;
+  /* margin-right: 20px; */
+  background-color: white;
+  border-radius: 10px;
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  padding-top: 5px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: right;
+  /* border: 1px solid #000; */
+}

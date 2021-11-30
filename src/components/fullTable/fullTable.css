@@ -1,0 +1,68 @@
+/* TABLE */
+.table {
+  transition: all 1s linear;
+  border-collapse: collapse;
+  background-color: white;
+  overflow: hidden;
+  font-size: 14px;
+  width: 100%;
+}
+
+.teacherCol input,
+.codeCol input {
+  width: 80px;
+}
+
+/* TABLE HEAD */
+.tableHeader {
+  padding: 5px;
+}
+
+.tableHeader input,
+.tableHeader select {
+  border-radius: 5px;
+  border: 1px solid var(--primary-main);
+  padding-left: 5px;
+}
+
+.tableHeaderRow {
+  color: var(--primary-main);
+  border-bottom: 1px solid var(--primary-main);
+}
+
+.tableHeader input:focus,
+.tableHeader select:focus {
+  outline: 1px solid var(--primary-main);
+}
+
+/* TABLE BODY */
+.tableDataRow:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+.tableDataRow:last-child {
+  border-bottom: 1px solid var(--neutral-grey);
+}
+.tableDataRow > td:first-child {
+  width: auto;
+}
+
+.tableData {
+  padding: 5px;
+  text-align: center;
+  min-width: 70px;
+}
+
+.tableBtn {
+  border-radius: 5px;
+  border: 2px solid var(--primary-main);
+  padding: 2px;
+  font-weight: 600;
+  color: var(--primary-main);
+  font-size: 12px;
+}
+.tableBtn:hover {
+  color: white;
+  background-color: var(--primary-main);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}

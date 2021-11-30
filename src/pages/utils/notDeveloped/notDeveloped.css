@@ -1,0 +1,10 @@
+.notDeveloped {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - 220px);
+  height: 100%;
+}
+.errorMessageWrapper {
+  margin-bottom: 35px;
+}

@@ -1,0 +1,25 @@
+.loginPage,
+.registerPage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginPage {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(182, 173, 173, 0.3)
+    ),
+    url("../../assets/images/njuBackground.jpg");
+  background-size: cover;
+}
+
+.registerPage {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(182, 173, 173, 0.3)
+    ),
+    url("../../assets/images/njuBackground.jpg");
+  background-size: cover;
+}

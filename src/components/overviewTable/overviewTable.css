@@ -1,0 +1,29 @@
+.overviewTable {
+  border-collapse: collapse;
+  background-color: white;
+  min-width: 320px;
+  height: 230px;
+  overflow: hidden;
+  font-size: 14px;
+  width: 100%;
+}
+.overviewTableCell {
+  padding: 5px;
+}
+
+/* HEADER */
+.overviewTableHeader {
+  color: var(--primary-main);
+  border-bottom: 1px solid var(--primary-main);
+}
+.overviewTableHeader th {
+  text-align: left;
+}
+
+/* BODY */
+.overviewTableDataRow:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+.overviewTableDataRow:last-child {
+  border-bottom: 1px solid var(--neutral-grey);
+}

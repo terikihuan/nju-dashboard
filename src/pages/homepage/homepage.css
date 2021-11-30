@@ -1,0 +1,9 @@
+.overview {
+  width: var(--overview-width);
+  display: flex;
+  flex-direction: column;
+}
+
+.overviewBottom {
+  display: flex;
+}

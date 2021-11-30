@@ -1,0 +1,20 @@
+/* Custom panel width */
+.studentInfoPage > div > div {
+  width: auto;
+}
+/* Container */
+.studentInfoContainer {
+  display: flex;
+  padding: 20px;
+}
+/* Profile picture */
+.studentImg {
+  height: 200px;
+}
+/* Student Informations */
+.studentInfoDetails {
+  margin-left: 20px;
+  line-height: 1.8;
+  padding-left: 20px;
+  border-left: 1px solid var(--neutral-grey);
+}
